@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/Student Portfolio Icon.png" type="image/png">
+    <title>Student Portfolio | Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .offcanvas-body a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            transition: 0.1s;
+            padding: 5px;
+        }
+
+        .offcanvas-body a:hover {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid justify-content-start">
+            <!-- Menu btn -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ms-3" href="Home.html">Student Portfolio</a>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" id="sidebar">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">Student Portfolio</h3>
+        </div>
+        <div class="offcanvas-body">
+            <a href="Home.html" class="d-block mb-2">🏠 Home</a>
+            <a href="#Profile-card" class="d-block mb-2">👤 About Me</a>
+            <a href="#Projects" class="d-block mb-2">💻 Projects</a>
+            <a href="#Skills" class="d-block mb-2">🛠️ Skills</a>
+            <a href="#Achievements" class="d-block mb-2">🏆 Achievements</a>
+            <a href="#Contact" class="d-block">📞 Contact</a>
+        </div>
+    </div>
+    <section id="Profile-card">
+        <div class="card container border border-dark shadow shadow-dark p-2 rounded"
+        style="width: max-content; margin-top: 100px; display: flex; flex-direction: column; align-items: center;">
+            <img class="rounded-circle my-2" src="assets/Codingal profile pic.png" alt="Codingal profile pic" width="100px"
+                height="100px">
+            <h2 title="Name">Shivansh Dokania</h2>
+            <h5>Grade 5</h5>
+            <h6 style="font-weight: normal;">My name is Shivansh Dokania. I really love coding ❤️. I really want to make
+                apps and games. It is my dream.</h6>
+        </div>
+    </section>
+    <section id="Projects">
+        <h1 class="mx-3 my-4">💻 Featured Projects</h1>
+    <h3 class="mx-3">Scratch Projects</h3>
+    <div class="row">
+        <div class="card col border border-dark p-1 mx-1"
+            style="width: max-content; margin-top: 30px; display: flex; flex-direction: column; align-items: center;">
+            <h3>ChatGPT</h3>
+            <iframe src="https://scratch.mit.edu/projects/1312547901/embed" allowtransparency="true" width="485"
+                height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+        <div class="card col border border-dark p-1 mx-1"
+            style="width: max-content; margin-top: 30px; display: flex; flex-direction: column; align-items: center;">
+            <h3>Flappy Bird</h3>
+            <iframe src="https://scratch.mit.edu/projects/1327517236/embed" allowtransparency="true" width="485"
+                height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3 class="mx-3">HTML Projects</h3>
+    <div class="row">
+        <div class="card col border border-dark p-3 mx-1"
+            style="width: max-content; margin-top: 30px; display: flex; flex-direction: column; align-items: center;">
+            <div class="d-flex" style="align-items: center;">
+                <img class="mx-2" src="assets/Shield icon.png" alt="CyberSheield icon" width="100px" height="100px">
+                <h3>CyberShield</h3>
+            </div>
+            <p>CyberShield is a cybersecurity awareness website that teaches users how to stay safe online. It provides
+                tips on creating strong passwords, identifying cyber threats, and practicing safe internet habits to
+                protect personal information.</p>
+        </div>
+        <div class="card col border border-dark p-3 mx-1"
+            style="width: max-content; margin-top: 30px; display: flex; flex-direction: column; align-items: center;">
+            <div class="d-flex" style="align-items: center;">
+                <img src="assets/GreenQuest Adventure Park logo.png" alt="GreenQuest Adventure Park logo" width="100px"
+                    height="100px">
+                <h3>GreenQuest Adventure Park</h3>
+            </div>
+            <p>GreenQuest Adventure Park is a fun and interactive website about an eco-friendly adventure park. It
+                showcases exciting activities, beautiful natural surroundings, and promotes environmental awareness
+                through outdoor adventures and learning experiences.</p>
+        </div>
+    </div>
+    </section>
+    <section id="Skills">
+        <h1 class="mx-3 my-4">🛠️ Skills</h1>
+        <ul>
+            <li>💻 Website Development – Building creative and user-friendly websites.</li>
+            <li>📱 App Develpment – Designing and building mobile apps using tools like MIT App Inventor.</li>
+            <li>🧩 Block-Based Coding – Building projects using drag-and-drop programming blocks.</li>
+            <li>🧩 Problem Solving – Thinking logically and finding solutions in coding.</li>
+            <li>🚀 Creativity – Designing and developing new project ideas.</li>
+        </ul>
+    </section>
+    <section id="Achievements">
+        <h1 class="mx-3 my-4">🏆 Achievements</h1>
+        <h3 class="mx-5 my-1">🏆 Certificates</h3>
+        <ul class="mx-5">
+            <li>Codingal course certificates</li>
+        </ul>
+        <h3 class="mx-5 my-1">🚀 Codingal Milestones</h3>
+        <ul class="mx-5">
+            <li>Learned HTML</li>
+            <li>Learned CSS</li>
+            <li>Learned Bootstrap</li>
+            <li>Started learning JS</li>
+            <li>Created websites and projects</li>
+        </ul>
+        <h3 class="mx-5 my-1">💻 Completed Projects</h3>
+        <ul class="mx-5">
+            <li>CyberShield</li>
+            <li>GreenQuest Adventure Park</li>
+            <li>Student Portfolio</li>
+        </ul>
+    </section>
+</body>
+
+</html>
